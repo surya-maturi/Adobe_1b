@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+    "processing_timestamp": "2025-07-28T14:26:04.710345"
+  },
+  "extracted_sections": [
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "section_title": "Professional Tip: Clear Instructions Professional Tip: Clear Instructions",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "your signature, tap the camera icon and follow through with the workflow.",
+      "importance_rank": 2,
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Flat form",
+      "importance_rank": 3,
+      "page_number": 12
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "section_title": "chosen platform? chosen platform?",
+      "importance_rank": 4,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "1. From the Quick actions toolbar, select Add your signature or initials . Select Add Signature .",
+      "importance_rank": 5,
+      "page_number": 6
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "By following these checklists, you can ensure that your sharing process is smooth and professional. Conclusion Sharing PDFs with Adobe Acrobat is straightforward and efficient, whether you're working on a general project or managing real estate documents. Start sharing smarter today. Make sure to emphasize important property details in your message to capture your clients' attention.",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Not all forms are fillable. Fill in PDF Forms Is the form fillable? Create your signature and initials if not already done. In the Comments And Forms menu, choose one of the following, and then select OK: • (Interactive or flat form) To print the form and the typed entries, choose Document. Note: You can also capture a picture of your signature on mobile using Adobe Acrobat Reader mobile app and save it in Adobe cloud storage so that it's synced and available for use across your desktop and other mobile devices. Interactive form To create an interactive form, use the Prepare Forms tool.",
+      "page_number": 6
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Acrobat and Acrobat Reader users can use the Fill & Sign tool to fill in flat forms. Interactive form To create an interactive form, use the Prepare Forms tool. See Create a form from an existing document. You can change a flat form to a fillable form by either using the Prepare Form tool or enabling the Fill & Sign tools.",
+      "page_number": 12
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "By following these checklists, you can ensure that your sharing process is smooth and professional. • Follow Up • Are you tracking who has accessed the document and following up with clients for feedback or next steps? Conclusion Sharing PDFs with Adobe Acrobat is straightforward and efficient, whether you're working on a general project or managing real estate documents. Professional Tip: Highlight Key Details Make sure to emphasize important property details in your message to capture your clients' attention. Start sharing smarter today.",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Not all forms are fillable. Fill in PDF Forms Is the form fillable? Create your signature and initials if not already done. In the Comments And Forms menu, choose one of the following, and then select OK: • (Interactive or flat form) To print the form and the typed entries, choose Document. Sometimes form creators don’t convert their PDFs to interactive fillable forms. Print forms 1. Interactive form To create an interactive form, use the Prepare Forms tool.",
+      "page_number": 6
+    }
+  ]
+}

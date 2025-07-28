@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "processing_timestamp": "2025-07-28T14:26:15.710536"
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Ingredients: Ingredients: o 2 cups grated cassava o 2 cups grated cassava",
+      "importance_rank": 1,
+      "page_number": 4
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Instructions: Instructions: • In a food processor, combine dates, mixed nuts, dried fruit, and honey. • In a food processor, combine dates, mixed nuts, dried fruit, and honey.",
+      "importance_rank": 2,
+      "page_number": 15
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Instructions: Instructions: o Prepare each side dish separately. o Prepare each side dish separately.",
+      "importance_rank": 3,
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Ingredients: Ingredients: o 1 cup rice flour o 1 cup rice flour",
+      "importance_rank": 4,
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Ingredients: Ingredients: 1 cup rice flour 1 cup rice flour",
+      "importance_rank": 5,
+      "page_number": 5
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "o 2 eggplants o Assorted small side dishes like pickled radish, spinach, bean sprouts, kimchi • Instructions: o Prepare each side dish separately. o Serve as accompaniments to the main meal. o Arrange on small plates. Banh Beo • Ingredients: o 1 cup rice flour o 1/2 cup water o 1/2 cup coconut milk",
+      "page_number": 4
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Fruit and Nut Bars Ingredients: • 1 cup dates, pitted • 1 cup mixed nuts • 1/4 cup dried fruit • 1 tablespoon honey Instructions: • In a food processor, combine dates, mixed nuts, dried fruit, and honey. • Serve immediately. • Serve immediately. • Serve immediately. • Season with salt and pepper. • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. • In a blender, combine frozen berries, spinach, Greek yogurt, almond milk, and honey. • Blend until smooth.",
+      "page_number": 15
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "o Simmer for 10 minutes. o Add bulgur and cook for 2 minutes. o Add soy sauce and cook for 2 minutes. Banchan • Ingredients: o Assorted small side dishes like pickled radish, spinach, bean sprouts, kimchi • Instructions: o Prepare each side dish separately. o Bake for 30 minutes until set and golden. o Bake for 45 minutes until vegetables are tender. o Add cumin, coriander, turmeric, and garam masala, cook for 1 minute. o Add lemongrass, chilies, and tamarind paste, simmer for 10 minutes. o Wrap in cheesecloth and hang in a cool, dry place for 1-2 weeks.",
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "o Add cumin, coriander, turmeric, and garam masala, cook for 1 minute. o Assorted small side dishes like pickled radish, spinach, bean sprouts, kimchi • Instructions: o Prepare each side dish separately. o Wrap in cheesecloth and hang in a cool, dry place for 1-2 weeks. Banh Beo • Ingredients: o 1 cup rice flour o 1 pound beef tenderloin o 1/4 cup paprika o 2 tablespoons cumin o 2 tablespoons fenugreek o 1 tablespoon garlic powder o 1 tablespoon salt • Instructions: o Rub beef with salt and let cure in the refrigerator for 24 hours. o Slice thinly and serve. o Serve warm.",
+      "page_number": 5
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "o Add cumin, coriander, turmeric, and garam masala, cook for 1 minute. o Assorted small side dishes like pickled radish, spinach, bean sprouts, kimchi • Instructions: o Prepare each side dish separately. o Wrap in cheesecloth and hang in a cool, dry place for 1-2 weeks. Banh Beo • Ingredients: o 1 cup rice flour o 1 pound beef tenderloin o 1/4 cup paprika o 2 tablespoons cumin o 2 tablespoons fenugreek o 1 tablespoon garlic powder o 1 tablespoon salt • Instructions: o Rub beef with salt and let cure in the refrigerator for 24 hours. o Slice thinly and serve. o Serve warm.",
+      "page_number": 5
+    }
+  ]
+}
