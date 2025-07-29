@@ -1,10 +1,10 @@
-Adobe Challenge 1B: Persona-Driven Document Intelligence
+**Adobe Challenge 1B: Persona-Driven Document Intelligence**
 
-Overview
+**Overview**
 
 This solution extracts and prioritizes the most relevant sections from a collection of PDFs, tailored to a given persona and their job-to-be-done. The system is fully offline, CPU-only, under 200MB, and does not use any internet access or file-specific logic. Output is ranked and summarized to align with the sample challenge1b_output.json schema.
 
-Features
+**Features**
 
 Persona-aware content extraction: Aligns all section and summary output to the persona and their goal/task.
 
@@ -16,7 +16,7 @@ TF-IDF relevance ranking: Ensures only the most relevant content is selected and
 
 Output schema: Matches Adobe’s required challenge1b_output.json format, with full metadata, section ranking, and concise summaries.
 
-Directory Structure
+**Directory Structure**
 
 1b/
  ├─ Collection 1/
@@ -34,7 +34,7 @@ Directory Structure
 run_collections.py
 requirements.txt
 
-Requirements
+**Requirements**
 
 Python 3.9+
 
@@ -46,7 +46,7 @@ numpy
 
 All are installed via pip and included in the provided Dockerfile.
 
-How to Run Locally
+**How to Run Locally**
 
 pip install pdfplumber scikit-learn numpy
 python run_collections.py
@@ -59,13 +59,12 @@ Build the image:
 
 docker build -t pdf-intel .
 
-Run:
+**Run:**
 
 docker run --rm -v $PWD:/app pdf-intel
 
-(Mounts the working directory so outputs appear in your local folders.)
 
-Output Format
+**Output Format**
 
 Each challenge1b_output.json will include:
 
@@ -75,16 +74,10 @@ Top 5 relevant sections (with titles, document source, page, importance rank)
 
 Concise summaries (subsection_analysis) per selected section
 
-Notes & Troubleshooting
+**Notes & Troubleshooting**
 
 Make sure your directory structure matches the above.
 
 The system will skip files or collections if required PDFs or input JSONs are missing.
 
 All section extraction and summarization is done generically—no hardcoded rules per file.
-
-Optional Enhancements
-
-To add semantic reranking (sentence-transformers), install via pip and uncomment model code.
-
-For OCR/scanned PDFs, use Tesseract OCR with pdfplumber—see approach_explanation.md for tips.
